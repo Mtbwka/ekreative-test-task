@@ -7,7 +7,12 @@ import UserPage from './app/pages/UserPage';
 
 const navigator = createStackNavigator(
   {
-    UsersList: UsersListPage,
+    UsersList: {
+      screen: UsersListPage,
+      navigationOptions: {
+        title: 'Users',
+      },
+    },
     User: UserPage,
   },
   {
