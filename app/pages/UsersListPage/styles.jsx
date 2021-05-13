@@ -17,4 +17,17 @@ export default StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'flex-start',
   },
+  nameLabel: {
+    fontSize: 24,
+  },
+  emailLabel: {
+    fontSize: 16,
+  },
+  avatar: {
+    height: 100,
+    width: 100,
+  },
+  activityIndicator: {
+    height: 64,
+  },
 });
